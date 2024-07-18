@@ -42,8 +42,17 @@ The objective of the Set card game is to identify sets of three cards where each
    - Each player has a token to place on the cards they believe form a set.
    
 3. **Placing Tokens:**
-   - Click on the cards you want to select as a set.
-   - Confirm your selection by placing your token on the third card.
+- Each key corresponds to a specific card position on the game board.
+- Player A uses the keys in the left section of the keyboard, while Player B uses the keys in the right section.
+  
+### Example:
+- **Player A**:
+  - Pressing `Q` will select the top-left card.
+  - Pressing `W` will select the card to the right of `Q`, and so on.
+  
+- **Player B**:
+  - Pressing `U` will select the top-left card in their section.
+  - Pressing `I` will select the card to the right of `U`, and so on.
    
 4. **Validation:**
    - The dealer validates the set.
@@ -62,19 +71,6 @@ The objective of the Set card game is to identify sets of three cards where each
   - **Start:** Begin a new game.
   - **Stop:** End the current game.
   - **Shuffle:** Shuffle the cards on the table.
-
-### Selecting Cards
-- Each key corresponds to a specific card position on the game board.
-- Player A uses the keys in the left section of the keyboard, while Player B uses the keys in the right section.
-  
-### Example:
-- **Player A**:
-  - Pressing `Q` will select the top-left card.
-  - Pressing `W` will select the card to the right of `Q`, and so on.
-  
-- **Player B**:
-  - Pressing `U` will select the top-left card in their section.
-  - Pressing `I` will select the card to the right of `U`, and so on.
 
 ### Game Status
 - **Messages:**
